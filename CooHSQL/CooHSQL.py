@@ -133,10 +133,10 @@ class CooHSQL(object):
 
 if __name__ == '__main__':
     mysql_settings = {
-        'host': '39.107.99.31',
+        'host': '',
         'port': 3306,
-        'user': 'cooh',
-        'password': 'Huahua.421'
+        'user': '',
+        'password': ''
     }
     CooHSQL = CooHSQL(mysql_settings, start_file='mysql-bin.000001', start_pos=143228)
     CooHSQL.process_binlog()
